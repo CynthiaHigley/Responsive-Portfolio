@@ -1,0 +1,122 @@
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:rgb(75, 153, 179);
+}
+
+.Header li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+.Header li:last-child {
+    border-right: none;
+}
+
+.Header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.Header li a:hover:not(.active) {
+    background:lightblue;
+}
+
+.active {
+    background:blue;
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: blue;
+color: white;
+text-align: center;
+}
+
+ /* Add a gray right border to all list items, except the last item (last-child) */
+ li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+} 
+
+.box1{
+    border-style:double;
+    padding-right: 50px;
+    text-align: left;
+
+}
+blockquote { 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 33%;
+    margin-right: 23%;
+    
+}
+#profile{
+    width:600px;
+   
+}
+.MainFrame tr td{
+
+    width:33%;
+
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+   
+@media screen and (min-width: 1300px) {
+    body{
+        background-color:rgb(236, 236, 41);
+        font-weight: bold;
+    }
+  }
+
+@media screen and (max-width: 500px) {
+    body{
+        background:rgb(47, 98, 116);
+    }
+  }
+  
+   
+  /* if screen size a larger size then set font size larger */
+  @media only screen and (min-width: 601px){
+    div.example{
+        font-weight: 900px;
+        font-size:80px;
+    }
+
+  }
+
+  /* if screen is smaller then decrease font size  */
+@media only screen and (max-width: 600px){
+    div.example {
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+  
+  
